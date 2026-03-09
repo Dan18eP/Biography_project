@@ -1,0 +1,9 @@
+.gallery-img {
+  width: 600px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.card ul li {
+  margin-bottom: 4px;
+}
