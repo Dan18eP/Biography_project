@@ -8,11 +8,14 @@
   border: 3px solid white;
   box-shadow: 0 10px 25px rgba(0,0,0,0.25);
   transition: transform 0.3s ease;
+  
+  
 }
 
 .imagen-messi:hover{
-  transform: scale(1.07);
+  transform: scale(1.02);
 }
+
 
 h1{
   font-weight: 700;
@@ -44,7 +47,7 @@ h2::after{
 }
 
 .card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-10px);
 }
 
 .card ul li {
@@ -59,7 +62,7 @@ h2::after{
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 .gallery-img:hover{
-  transform: scale(1.05);
+  transform: scale(1.03);
   box-shadow: 0 10px 25px rgba(0,0,0,0.3);
   cursor: pointer;
 }
