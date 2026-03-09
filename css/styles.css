@@ -1,6 +1,39 @@
+#inicio{
+  background: linear-gradient(135deg, #eef4ff, #ffffff);
+  padding: 80px 0;
+  text-align: center;
+}
+
+.imagen-messi{
+  border: 3px solid white;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+  transition: transform 0.3s ease;
+}
+
+.imagen-messi:hover{
+  transform: scale(1.07);
+}
+
+h1{
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
 h2 {
   font-weight: 700;
   margin-bottom: 30px;
+  text-align: center;
+  position: relative;
+}
+
+h2::after{
+  content: "";
+  width: 70px;
+  height: 4px;
+  background: #3b82f6;
+  display: block;
+  margin: 12px auto 0;
+  border-radius: 3px;
 }
 
 .card {
