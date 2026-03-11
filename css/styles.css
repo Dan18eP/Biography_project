@@ -98,7 +98,6 @@ li{
   width: 600px;
   height: 400px;
   object-fit: cover;
-  border-radius: 6px;
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 .gallery-img:hover{
@@ -118,11 +117,30 @@ section {
 body {
   padding-top: 70px;
   background: linear-gradient(120deg, #bcddf3 0%, #e8eaec 50%, #e6f0ff 100%);
+  font-family: 'Poppins', sans-serif;
   min-height: 100vh;
 }
 
 .navbar {
   box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.navbar-brand {
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+}
+
+.nav-link {
+  transition: color 0.2s;
+}
+
+.nav-link:hover {
+  color: #fff !important;
+}
+
+.nav-link.active {
+  font-weight: 600;
+  color: #00aae7 !important;
 }
 
 .timeline{
